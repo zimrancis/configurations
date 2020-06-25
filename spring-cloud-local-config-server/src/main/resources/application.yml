@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-cloud-local-config-server
+  profiles:
+    active: qa
+  cloud.config.server.git.uri: ${HOME}/IdeaProjects/configrepo

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/configurations.iml" filepath="$PROJECT_DIR$/.idea/configurations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diff-configs/diff-configs.iml" filepath="$PROJECT_DIR$/diff-configs/diff-configs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-local-config-server/spring-cloud-local-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-local-config-server/spring-cloud-local-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-online-config-server/spring-cloud-online-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-online-config-server/spring-cloud-online-config-server.iml" />
+    </modules>
+  </component>
+</project>

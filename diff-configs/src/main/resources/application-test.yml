@@ -1,0 +1,17 @@
+app:
+  greeting: Hi Zobair!
+
+my:
+  love: I Love You ${app.greeting}
+  list:
+    values: One,Tow,Three
+
+dbValues: "{connectionString: 'https://localhost:9999/dbcon', userName: 'foo', password: 'pass'}"
+
+db:
+  connection: {connectionString: 'https://localhost:9999/dbcon', userName: 'foo', password: 'pass'}
+  host: 127.0.0.1
+  port: 1400
+
+management.endpoints.web.exposure.include: '*'
+

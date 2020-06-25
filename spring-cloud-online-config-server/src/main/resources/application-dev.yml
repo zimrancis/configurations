@@ -1,0 +1,10 @@
+#app:
+#  name: spring-cloud-online-config-server
+#  description: Welcome to ${app.name}
+#
+#my:
+#  greeting: Hello World
+#  list:
+#    values: One,Tow,Three
+#
+#management.endpoints.web.exposure.include: '*'

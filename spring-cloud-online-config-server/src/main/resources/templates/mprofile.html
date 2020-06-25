@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- include css in the header -->
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+
+    <title>Adding Static Resources (css, JavaScript, Images) to Thymeleaf</title>
+</head>
+<body>
+<div class="container">
+    <h1>
+        <img alt="memorynotfound logo" src="/img/logo.png"/>
+        Welcome to Thymeleaf Spring Boot web application
+    </h1>
+    <p th:text="${values}"></p>
+    <p th:text="${connection}"></p>
+    <p th:text="${host}"></p>
+    <p th:text="${port}"></p>
+</div>
+
+<!-- include javascript in the footer -->
+<script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
+<script type="text/javascript" th:src="@{webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/lib.js}"></script>
+
+</body>
+</html>
+
+<!--
+<div class="container">
+    <h1>
+        &lt;!&ndash; include image from static resources &ndash;&gt;
+        <img alt="memorynotfound logo" src="/img/logo.png" />
+        Adding Static Resources (css, JavaScript, Images) to Thymeleaf
+    </h1>
+</div>-->

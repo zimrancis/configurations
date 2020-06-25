@@ -1,0 +1,9 @@
+my:
+   greetings: Hello World from local config server
+   list:
+      values: One,Tow,Three, Four, Five
+
+db:
+   connection: connection-string-here-from-local-config-server
+   host: 127.0.0.1
+   port: 1200
